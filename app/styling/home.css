@@ -158,6 +158,7 @@
 #campus {
     border-top: #0090d9 5px solid;
     background-image: url("../pics/campus.svg");
+    background-repeat: no-repeat;
     color: white;
 }
 
