@@ -1,0 +1,618 @@
+* {
+    font-family: 'Source Sans Pro';
+}
+
+/* Navigation Bar */
+
+#nav {
+    min-height: 100px;
+    background-color: white;
+    font-size: 15px;
+}
+
+#nav .container-xl {
+    max-width: 1000px;
+}
+
+#nav img {
+    height: 45px;
+}
+
+#nav a {
+    color: black;
+    transition: all 0.3s;
+    font-size: 15px;
+}
+
+#nav a:hover {
+    color: #0298f5;
+}
+
+#nav .dropdown-menu {
+    margin-top: 30px;
+    border-radius: 0;
+    border-top: solid 2px #0090d9;
+    padding: 19px;
+}
+
+#nav .dropdown-menu a {
+    padding-left: 0;
+    padding: 10px 10px 10px 0;
+}
+
+#nav .dropdown-menu a:hover {
+    color: black;
+    padding-left: 10px;
+}
+
+#nav .dropdown-header {
+    font-weight: 600;
+    padding: 10px 10px 10px 0;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+#nav .btn-primary1 {
+    font-weight: 600;
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+}
+
+#nav .container-xl>div:nth-last-child(2) {
+    flex: auto;
+    text-align: end;
+}
+
+#nav .navbar-toggler {
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #0090d9;
+}
+
+#nav .navbar-collapse {
+    width: -webkit-fill-available;
+    justify-content: flex-end;
+}
+
+/* Header 1 */
+
+#header1 {
+    background-image: url("../pics/header1.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#header1 .container-xl {
+    padding: 100px 0 100px 0;
+}
+
+#header1 h1 {
+    font-family: 'Merriweather';
+    letter-spacing: 3px;
+    line-height: 55px;
+}
+
+#header1 h3 {
+    font-size: 25px;
+}
+
+#header1 button {
+    font-weight: 600;
+    width: 275px;
+}
+
+#header1 .btn-outline-light1 {
+    cursor: default;
+}
+
+/* Reviews */
+
+#reviews {
+    background-color: #efefef;
+    color: #666159;
+}
+
+#reviews .container-md {
+    max-width: 1000px;
+}
+
+#reviews h5 {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+#reviews h6 {
+    font-size: 15px;
+}
+
+#reviews img {
+    max-width: 90%;
+}
+
+#reviews div img:nth-child(1) {
+    max-width: 150px;
+}
+
+#reviews div img:nth-child(2) {
+    max-width: 200px;
+}
+
+#reviews div img:nth-child(3) {
+    max-width: 100px;
+}
+
+#reviews .row .col-12 {
+    border-right: rgba(102, 97, 89, 0.1) 1px solid;
+}
+
+#reviews .row .col-12:nth-last-child(1) {
+    border-right: none;
+}
+
+/* Campus */
+
+#campus {
+    border-top: #0090d9 5px solid;
+    background-image: url("../pics/campus.svg");
+    color: white;
+}
+
+#campus .container-fluid {
+    max-width: 1000px;
+}
+
+#campus h2 {
+    font-weight: 600;
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px;
+    font-size: 35px;
+}
+
+#campus p {
+    font-size: 23px;
+    line-height: 25px;
+}
+
+#campus button {
+    font-weight: 600;
+}
+
+/* Companies */
+
+#companies .container-fluid {
+    max-width: 1000px;
+}
+
+#companies h2 {
+    font-family: 'Merriweather';
+    line-height: 60px;
+    font-size: 35px;
+}
+
+#companies p {
+    font-size: 18px;
+}
+
+#companies img {
+    max-width: 100%;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.3)
+}
+
+/* Types */
+
+#types {
+    text-align: center;
+    color: white;
+}
+
+#types .row div:nth-child(1) {
+    background-color: #de7c01;
+}
+
+#types .row div:nth-child(1) span {
+    max-width: 333px;
+}
+
+#types .row div:nth-child(2) {
+    background-color: #0090d9;
+    max-width: 333px;
+}
+
+#types .row div:nth-child(3) {
+    background-color: #00b298;
+}
+
+#types .row div:nth-child(3) span {
+    max-width: 333px;
+}
+
+#types h3 {
+    font-family: 'Merriweather';
+    font-size: 23px;
+}
+
+#types h4 {
+    font-family: 'Merriweather';
+    font-size: 15px;
+}
+
+#types p {
+    font-size: 18px;
+}
+
+#types button {
+    font-weight: 600;
+}
+
+/* Syllabus */
+
+#syllabus .container-fluid {
+    max-width: 1000px;
+}
+
+#syllabus h3 {
+    font-family: 'Merriweather';
+    color: #de7c01;
+    font-size: 23px;
+    line-height: 1.7;
+    max-width: 500px;
+}
+
+#syllabus .btn-secondary1 {
+    font-weight: 600;
+    cursor: default;
+}
+
+#modal a {
+    transition: all 0.3s;
+}
+
+#modal #modal-title {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+#modal button {
+    font-weight: 600;
+}
+
+/* Quotes */
+
+#quotes {
+    background-color: #e2e2e2;
+    font-size: 17px;
+}
+
+#quotes .container>.row {
+    max-width: 960px;
+}
+
+#quotes img {
+    max-width: 100%;
+}
+
+#quotes .height {
+    background-color: #d0d0d0;
+}
+
+#quotes .height div:nth-child(2) {
+    height: 215px;
+}
+
+#quotes .p-0 {
+    max-width: 325px;
+}
+
+#quotes h6 {
+    color: #0090d9;
+    font-weight: 600;
+}
+
+/* Attention */
+
+#attention h2 {
+    font-family: 'Merriweather';
+    line-height: 60px;
+    font-size: 33px;
+}
+
+#attention .container-lg {
+    max-width: 980px;
+}
+
+#attention .col-12 {
+    padding: 0;
+}
+
+#attention a {
+    margin: 10px;
+    width: -webkit-fill-available;
+    background-position: center;
+    background-size: cover;
+}
+
+#attention .col-12:nth-child(1) a {
+    background-image: url(../pics/attention1.jpg);
+}
+
+#attention .col-12:nth-child(2) a {
+    background-image: url(../pics/attention2.jpg);
+}
+
+#attention .col-12:nth-child(3) a {
+    background-image: url(../pics/attention3.jpg);
+}
+
+#attention .col-12:nth-child(4) a {
+    background-image: url(../pics/attention4.jpg);
+}
+
+#attention .col-12:nth-child(5) a {
+    background-image: url(../pics/attention5.jpg);
+}
+
+#attention .col-12:nth-child(6) a {
+    background-image: url(../pics/attention6.jpg);
+}
+
+#attention a div {
+    margin: 0;
+    height: 160px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px;
+    background-color: rgba(58, 78, 94, 0.5);
+    width: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s;
+}
+
+#attention a div:hover {
+    background-color: rgba(58, 78, 94, 0.8);
+}
+
+/* Header 2 */
+
+#header2 {
+    background-image: url("../pics/header2.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#header2 .container-xl {
+    padding: 80px 0 80px 0;
+}
+
+#header2 h1 {
+    font-family: 'Merriweather';
+    letter-spacing: 3px;
+    line-height: 55px;
+}
+
+#header2 button {
+    font-weight: 600;
+    width: 275px;
+}
+
+/* News */
+
+#news h2 {
+    font-family: 'Merriweather';
+    line-height: 60px;
+    font-size: 33px;
+}
+
+#news .container-md {
+    max-width: 1000px;
+}
+
+#news a {
+    color: black;
+}
+
+#news img {
+    max-width: 90%;
+}
+
+#news .row .col-6 {
+    border-right: rgba(0, 0, 0, 0.1) 1px solid;
+}
+
+#news .row .col-6:nth-last-child(1) {
+    border-right: none;
+}
+
+/* Footer 1 */
+
+#footer1 {
+    background-color: #0090d9;
+    color: white;
+}
+
+#footer1 .container-xl {
+    max-width: 1000px;
+}
+
+#footer1 .border {
+    border: rgb(0, 0, 0) solid 3px;
+}
+
+#footer1 a {
+    color: white;
+}
+
+#footer1 h6:hover {
+    padding-left: 5px;
+}
+
+#footer1 img {
+    max-width: 150px;
+}
+
+#footer1 label {
+    font-weight: 600;
+}
+
+#footer1 [type="submit"] {
+    min-width: 100px;
+    font-weight: 600;
+    cursor: default;
+}
+
+#footer1 .d-flex button {
+    width: 40px;
+}
+
+#footer1 h5 {
+    font-weight: 600;
+    font-size: 17px;
+    margin: 12px 0 12px 0;
+}
+
+#footer1 h6 {
+    font-size: 17px;
+    margin: 12px 0 12px 0;
+    transition: all 0.3s;
+}
+
+#footer1 .container-xl>div:nth-child(2)>div:nth-child(4)>div>div {
+    max-width: 400px;
+    margin: auto;
+}
+
+#footer1 .container-xl>div:nth-child(1) .bottom-border {
+    border-bottom: solid #4aaded 1px;
+}
+
+/* Footer 2 */
+
+#footer2 {
+    background-color: #0078b5;
+    border-top: solid 1px #4aaded;
+    color: white;
+    font-size: 14px;
+}
+
+#footer2 .container-xl {
+    max-width: 1000px;
+}
+
+#footer2 a {
+    color: white;
+}
+
+/* Sizes */
+
+@media (max-width: 992px) {
+    /* Reviews */
+    #reviews h5 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #reviews h6 {
+        font-size: 14px;
+    }
+    #reviews div img:nth-child(1) {
+        max-width: 120px;
+    }
+    #reviews div img:nth-child(2) {
+        max-width: 180px;
+    }
+    #reviews div img:nth-child(3) {
+        max-width: 55px;
+    }
+    /* Quotes */
+    #quotes .height div:nth-child(2) {
+        height: 161px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Header */
+    #header h1 {
+        font-size: 23px;
+        line-height: 40px;
+    }
+    /* Reviews */
+    #reviews div img:nth-child(1) {
+        max-width: 150px;
+    }
+    #reviews div img:nth-child(2) {
+        max-width: 200px;
+    }
+    #reviews div img:nth-child(3) {
+        max-width: 100px;
+    }
+    #reviews h5 {
+        font-size: 19px;
+        font-weight: 600;
+    }
+    #reviews h6 {
+        font-size: 15px;
+    }
+    #reviews .row .col-12 {
+        border-right: none;
+    }
+    #reviews .row .col-12 {
+        border-bottom: rgba(102, 97, 89, 0.1) 1px solid;
+    }
+    #reviews .row .col-12:nth-last-child(1) {
+        border-bottom: none;
+    }
+    /* Companies */
+    #companies h2 {
+        font-size: 23px;
+        line-height: 40px;
+    }
+    /* Types */
+    #types .row div:nth-child(1) span {
+        max-width: none;
+    }
+    #types .row div:nth-child(2) {
+        max-width: none;
+    }
+    #types .row div:nth-child(3) span {
+        max-width: none;
+    }
+    /* Attention */
+    #attention a {
+        max-width: 400px;
+    }
+    #attention a div {
+        max-width: 400px;
+    }
+    #attention h2 {
+        font-size: 20px;
+    }
+    /* Header 2 */
+    #header2 h1 {
+        font-size: 23px;
+        line-height: 40px;
+    }
+    /* News */
+    #news .row .col-6:nth-last-child(3) {
+        border-right: none;
+    }
+    #news img {
+        max-width: 180px;
+    }
+    /* Footer 1 */
+    #footer1 .container-xl>div:nth-child(2) .bottom-border {
+        border-bottom: solid #4aaded 1px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* News */
+    #news h2 {
+        font-size: 25px;
+    }
+}
