@@ -602,7 +602,8 @@
         border-right: none;
     }
     #news img {
-        max-width: 180px;
+        width: 180px;
+        max-width: 90%;
     }
     /* Footer 1 */
     #footer1 .container-xl>div:nth-child(2) .bottom-border {
