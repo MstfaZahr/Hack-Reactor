@@ -73,6 +73,7 @@
 
 #nav .navbar-collapse {
     width: -webkit-fill-available;
+    width: -moz-available;
     justify-content: flex-end;
 }
 
@@ -332,6 +333,7 @@
 #attention a {
     margin: 10px;
     width: -webkit-fill-available;
+    width: -moz-available;
     background-position: center;
     background-size: cover;
 }
@@ -369,6 +371,7 @@
     text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px;
     background-color: rgba(58, 78, 94, 0.5);
     width: -webkit-fill-available;
+    width: -moz-available;
     display: flex;
     align-items: center;
     justify-content: center;
