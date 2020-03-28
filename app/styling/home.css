@@ -33,6 +33,16 @@
     border-radius: 0;
     border-top: solid 2px #0090d9;
     padding: 19px;
+    transform: translateY(-10px);
+    transform-origin: 0 0;
+    transition: all 0.2s ease-out;
+    display: block;
+    opacity: 0;
+}
+
+#nav .show{
+    transform: translateY(0);
+    opacity: 1;
 }
 
 #nav .dropdown-menu a {
@@ -517,6 +527,16 @@
 /* Sizes */
 
 @media (max-width: 991px) {
+
+    /* Navigation Bar */
+    #nav .dropdown-menu{
+        display: none;
+    }
+
+    #nav .show{
+        display: block;
+    }
+
     /* Reviews */
     #reviews h5 {
         font-size: 15px;
